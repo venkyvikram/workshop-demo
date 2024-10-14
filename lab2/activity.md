@@ -30,8 +30,3 @@ docker ps
 docker stop <container-id>
 docker rm <container-id>
 ```
-
-## 2: Set the resource limit for nginx application
-```
-docker run --memory=512m --cpus=1 nginx
-```
