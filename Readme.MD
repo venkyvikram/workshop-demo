@@ -1,5 +1,5 @@
 ## Workshop for Cloud Security and Containerization Training
-
+```
 ├── lab1
 │   ├── Dockerfile
 │   └── activity.md
@@ -11,3 +11,4 @@
     ├── networkpolicy.yaml
     ├── role.yaml
     └── rolebinding.yaml
+```
