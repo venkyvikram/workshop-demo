@@ -43,9 +43,19 @@ Pull a simple containerized application from Docker Hub. For this activity, we'l
 FROM alpine
 CMD ["echo", "Hello World!"]
 ```
-2. Execute the command in the location where the Dockerfile is created
+2. Build using the command in the location where the Dockerfile is created
 ```
 docker build -t my-hello-world .
+```
+
+3. Execute the container to see the output
+```
+docker run my-hello-world
+```
+
+4. Check for built images:
+```
+docker images
 ```
 ## Activity 4: Clean-up
 1. Remove the container: docker rm <containerID>
